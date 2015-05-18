@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AboutApp</string>
+
+    <string name="application_id">Application ID</string>
+    <string name="version_name">Version name</string>
+    <string name="version_code">Version code</string>
+    <string name="build_type">Build type</string>
+    <string name="product_flavor">Product flavor</string>
+    <string name="git_sha">Git SHA</string>
+    <string name="build_time">Build time</string>
+</resources>
