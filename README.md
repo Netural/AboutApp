@@ -1,5 +1,20 @@
-Proguard exceptions:
+#AboutApp [![Release](https://img.shields.io/github/tag/Netural/AboutApp.svg?label=JitPack%20Maven)](https://jitpack.io/#Netural/AboutApp)
 
+
+*How to add AboutApp to your project*
+
+```gradle
+   repositories { 
+        maven { url "https://jitpack.io" }
+   }
+   dependencies {
+         compile 'com.github.Netural:AboutApp:1.0.3'
+   }
+```
+
+*Proguard exceptions*
+
+```
 -keepclassmembers class at.cineplexx.android.BuildConfig {
   public static final java.lang.String APPLICATION_ID;
   public static final java.lang.String BUILD_TYPE;
@@ -9,3 +24,4 @@ Proguard exceptions:
   public static final java.lang.String BUILD_TIME;
   public static final java.lang.String GIT_SHA;
  }
+```
