@@ -7,15 +7,16 @@
    repositories { 
         maven { url "https://jitpack.io" }
    }
+   
    dependencies {
-         compile 'com.github.Netural:AboutApp:1.0.3'
+         compile 'com.github.Netural:AboutApp:1.1.1
    }
 ```
 
 *Proguard exceptions*
 
 ```
--keepclassmembers class com.yourpackage.BuildConfig {
+-keepclassmembers class >enter you package name<.BuildConfig {
   public static final java.lang.String APPLICATION_ID;
   public static final java.lang.String BUILD_TYPE;
   public static final java.lang.String FLAVOR;
