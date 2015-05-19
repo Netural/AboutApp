@@ -15,7 +15,7 @@
 *Proguard exceptions*
 
 ```
--keepclassmembers class at.cineplexx.android.BuildConfig {
+-keepclassmembers class com.yourpackage.BuildConfig {
   public static final java.lang.String APPLICATION_ID;
   public static final java.lang.String BUILD_TYPE;
   public static final java.lang.String FLAVOR;
